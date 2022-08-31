@@ -13,7 +13,9 @@ function getJobs(){
     return fetch('./assets/data/data.json').then(response => response.json()).then(data => data)
 }
 
-getJobs().then(data => showJobs(data)) //calling getJobs which will return Promis from wwhich we are retriving the data and passing it to showJobs
+getJobs().then(data => {
+    showJobs(data)
+}) //calling getJobs which will return Promis from wwhich we are retriving the data and passing it to showJobs
 
 function filterJobs(jobs, searchText){
     if(searchText){
@@ -35,6 +37,8 @@ function filterJobs(jobs, searchText){
     }
 }
 
+
+// ------------------------------
 
 function showJobs(jobs){
     // console.log(jobs)
