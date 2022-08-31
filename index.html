@@ -20,109 +20,24 @@
         </div>
     </nav>
     <div class="container text-center my-4">
-        <div class="row my-2 text-center">
-            <div class="col-md-10 gy-2">
-            <input type="text" class="form-control search-input" id="search-input" placeholder="Filter by title">
-          </div>
-          <div class="col col-sm-3 col-md-3 col-lg-2 gy-2">
+        <div class="input-group">
+            <input type="text" aria-label="First name" class="form-control search-input" id="search-input" placeholder="Filter by title (type in lower case)">
+            <!-- <span class="input-group-text">First and last name</span> -->
             <button type="submit" class="btn btn-primary search-btn">Find Jobs</button>
           </div>
-        </div>
     </div>
 
     <!-- job container -->
     <div class="container my-4 jobs-list">
         <div class="row my-2">
-            <h5 class="number-of-jobs align-self-start">Showing <span>26</span> Jobs</h5>
+            <h5 class="number-of-jobs align-self-start"></h5>
         </div>
         <!-- Job tiles -->
-        <div class="jobs-container">
-            <div class="row row-cols-1 row-cols-md-4 g-4">
-                <div class="col col-lg-5 col-xl-3 col-md-6 col-sm-15">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <div class="logo-box mb-2">
-                                <img src="./assets/images/logo.jpg" alt="logo" srcset="">
-                            </div>
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text text-truncate">With supporting text below as a natural lead-in to additional content.</p>
-                            <div class="container text-center my-2">
-                                <div class="row row-cols-1 row-cols-sm-2 mt-4">
-                                    <div class="col"><a href="#" class="btn btn-primary apply-btn">Apply Now</a></div>
-                                    <div class="col"><a href="#" class="btn btn-primary message-btn">Message</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-lg-5 col-xl-3 col-md-6 col-sm-15">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <div class="logo-box mb-2">
-                                <img src="./assets/images/logo.jpg" alt="logo" srcset="">
-                            </div>
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text text-truncate">With supporting text below as a natural lead-in to additional content.</p>
-                            <div class="container text-center my-2">
-                                <div class="row row-cols-1 row-cols-sm-2 mt-4">
-                                    <div class="col"><a href="#" class="btn btn-primary apply-btn">Apply Now</a></div>
-                                    <div class="col"><a href="#" class="btn btn-primary message-btn">Message</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-lg-5 col-xl-3 col-md-6 col-sm-15">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <div class="logo-box mb-2">
-                                <img src="./assets/images/logo.jpg" alt="logo" srcset="">
-                            </div>
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text text-truncate">With supporting text below as a natural lead-in to additional content.</p>
-                            <div class="container text-center my-2">
-                                <div class="row row-cols-1 row-cols-sm-2 mt-4">
-                                    <div class="col"><a href="#" class="btn btn-primary apply-btn">Apply Now</a></div>
-                                    <div class="col"><a href="#" class="btn btn-primary message-btn">Message</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-lg-5 col-xl-3 col-md-6 col-sm-15">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <div class="logo-box mb-2">
-                                <img src="./assets/images/logo.jpg" alt="logo" srcset="">
-                            </div>
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text text-truncate">With supporting text below as a natural lead-in to additional content.</p>
-                            <div class="container text-center my-2">
-                                <div class="row row-cols-1 row-cols-sm-2 mt-4">
-                                    <div class="col"><a href="#" class="btn btn-primary apply-btn">Apply Now</a></div>
-                                    <div class="col"><a href="#" class="btn btn-primary message-btn">Message</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-lg-5 col-xl-3 col-md-6 col-sm-15">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <div class="logo-box mb-2">
-                                <img src="./assets/images/logo.jpg" alt="logo" srcset="">
-                            </div>
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text text-truncate">With supporting text below as a natural lead-in to additional content.</p>
-                            <div class="container text-center my-2">
-                                <div class="row row-cols-1 row-cols-sm-2 mt-4">
-                                    <div class="col"><a href="#" class="btn btn-primary apply-btn">Apply Now</a></div>
-                                    <div class="col"><a href="#" class="btn btn-primary message-btn">Message</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="jobs-list-container">
+            <div class="row row-cols-1 row-cols-md-4 g-4 jobs-container row-cols-auto">
+                
+                <!-- Jobs tiles will appear here -->
+            
             </div>
         </div>
     </div>
