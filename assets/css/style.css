@@ -34,12 +34,12 @@
     border: 0.5px solid rgba(255, 255, 255, 0.096);
 }
 
-.col-md-10 input{
+.input-group input{
     background-color: #1C1C25;
     color: #fff;
 }
 
-.col-md-10 input:focus{
+.input-group input:focus{
     background-color: #1C1C25;
     color: #fff;
     border: none;
@@ -47,7 +47,7 @@
 }
 
 .row{
-    justify-content: space-around;
+    /* justify-content: space-around; */
     --bs-gutter-y: 1rem !important;
 }
 
@@ -80,6 +80,11 @@ p{
     color: darkgray;
 }
 
+h6{
+    color: #28DF99;
+    font-weight: 500;
+}
+
 .message-btn{
     background-color: #292932;
     color: #a4a4aa;
@@ -95,6 +100,27 @@ p{
 .logo-box img{
     height: 20%;
     width: 20%;
-    background-color: #5b5b63;
+    background-color: transparent;
     border-radius: 10px;
 }
+
+.tags-container{
+    background-color: #292932;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 4px;
+    border-radius: 5px;
+}
+
+.tags small{
+    color: rgba(255, 255, 255, 0.616);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.description{
+    height: 70px;
+    overflow: hidden;
+    flex-grow: 1;
+}
+
